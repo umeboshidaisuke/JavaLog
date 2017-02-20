@@ -4,8 +4,6 @@ import android.util.Log;
 
  class Human extends Animal implements Thinkable {
 
-     String name;   //名前
-         int age;    // 年齢
      String hobby; //趣味
 
      public Human(String name, int age, String hobby) {
@@ -20,7 +18,8 @@ import android.util.Log;
      }
      @Override
      public void think() {
-          Log.d("javatest","私は" + this.hobby + "について考える" );
+
+         Log.d("javatest","私は" + this.hobby + "について考える" );
       }
 
  }
